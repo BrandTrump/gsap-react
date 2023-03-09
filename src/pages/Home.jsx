@@ -2,6 +2,7 @@ import gsap from "gsap";
 import { useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 import SplitType from "split-type";
+import Navbar from "../components/Navbar";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -17,15 +18,16 @@ const Home = () => {
   });
 
   return (
-    <div className="wrapper">
-      <Link to={"/star-text-effect"} className="star-text-link">
-        Star Text
-      </Link>
+    <>
+      <Navbar />
+      <div className="wrapper">
+        <div className="links"></div>
 
-      <header>
-        <h1 id="my-text">Brandon.Trump</h1>
-      </header>
-    </div>
+        <header>
+          <h1 id="my-text">Brandon.Trump</h1>
+        </header>
+      </div>
+    </>
   );
 };
 
