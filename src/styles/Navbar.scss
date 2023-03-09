@@ -1,0 +1,28 @@
+.nav-container {
+  background-color: rgb(10, 10, 10);
+  max-width: 100%;
+  margin: 0;
+  padding: 2em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  text-decoration: underline;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  gap: 2em;
+}
+
+li {
+  list-style: none;
+}
