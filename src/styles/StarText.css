@@ -28,7 +28,7 @@
 .container {
   background-color: rgb(10, 10, 10);
   margin: 0;
-  height: 100vh;
+  height: 93.2vh;
   overflow: hidden;
   display: grid;
   place-items: center;
@@ -72,11 +72,4 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
-}
-
-.home-link {
-  text-decoration: underline;
-  color: white;
-  font-size: 2rem;
-  text-transform: uppercase;
 }/*# sourceMappingURL=StarText.css.map */

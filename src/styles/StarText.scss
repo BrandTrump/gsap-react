@@ -31,7 +31,7 @@
 .container {
   background-color: rgb(10, 10, 10);
   margin: 0;
-  height: 100vh;
+  height: 93.2vh;
   overflow: hidden;
   display: grid;
   place-items: center;
@@ -87,11 +87,4 @@
       white-space: nowrap;
     }
   }
-}
-
-.home-link {
-  text-decoration: underline;
-  color: white;
-  font-size: 2rem;
-  text-transform: uppercase;
 }
