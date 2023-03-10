@@ -25,6 +25,11 @@ const Navbar = () => {
               Moving Blob
             </Link>
           </li>
+          <li>
+            <Link to={"/hacker-text"} className="links">
+              Hacker Text
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
