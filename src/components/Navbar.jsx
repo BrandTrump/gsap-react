@@ -20,6 +20,11 @@ const Navbar = () => {
               Marquee
             </Link>
           </li>
+          <li>
+            <Link to={"/moving-blob"} className="links">
+              Moving Blob
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
