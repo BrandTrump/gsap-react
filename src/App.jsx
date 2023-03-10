@@ -4,6 +4,7 @@ import StarTextEffect from "./pages/StarTextPage";
 import Marquee from "./pages/Marquee";
 import MovingBlobPage from "./pages/MovingBlobPage";
 import HackerTextPage from "./pages/HackerTextPage";
+import TwitchCardPage from "./pages/TwitchCardPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/marquee" element={<Marquee />} />
           <Route path="/moving-blob" element={<MovingBlobPage />} />
           <Route path="/hacker-text" element={<HackerTextPage />} />
+          <Route path="/twitch-card" element={<TwitchCardPage />} />
         </Routes>
       </Router>
     </>
