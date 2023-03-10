@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 
 import "../styles/MovingBlob.css";
+import HackerText from "./HackerText";
 
 const MovingBlob = () => {
   const blob = useRef(null);
@@ -22,6 +23,7 @@ const MovingBlob = () => {
     >
       <div id="blob" ref={blob}></div>
       <div id="blur"></div>
+      <HackerText />
     </div>
   );
 };
