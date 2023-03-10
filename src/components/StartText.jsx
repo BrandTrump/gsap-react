@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import "../styles/StarText.css";
 import { useRef } from "react";
-import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
 
 const StartText = () => {
   const star = useRef(null);
