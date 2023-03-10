@@ -50,16 +50,16 @@
   --size: clamp(2rem, 1.5vw, 3rem);
   animation: scale 700ms ease forwards;
   display: block;
-  height: var(-size);
+  height: var(--size);
   left: var(--star-left);
   position: absolute;
   top: var(--star-top);
   width: var(--size);
 }
 .container h1 svg {
+  animation: rotate 1000ms linear infinite;
   display: block;
   opacity: 0.7;
-  animation: rotate 1000ms linear infinite;
 }
 .container h1 svg path {
   fill: var(--violet);
