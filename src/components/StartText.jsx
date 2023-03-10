@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import "../styles/StarText.css";
 import { useRef } from "react";
 
@@ -7,7 +7,7 @@ const StartText = () => {
   const star2 = useRef(null);
   const star3 = useRef(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const total = [star1, star2, star3];
     let index = 0;
     let interval = 1000;
