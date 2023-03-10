@@ -30,6 +30,11 @@ const Navbar = () => {
               Hacker Text
             </Link>
           </li>
+          <li>
+            <Link to={"/twitch-card"} className="links">
+              Twitch Card
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
