@@ -1,0 +1,22 @@
+.text-animation-container {
+  display: grid;
+  place-content: center;
+  height: 93.2vh;
+}
+
+.text-wrapper {
+  background: rgb(231, 231, 231);
+  width: 100%;
+  padding: 25em 3em;
+  border-radius: 2em;
+}
+
+.text-wrapper p {
+  font-size: 7rem;
+  margin: 0;
+  text-align: center;
+  line-height: 0;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
