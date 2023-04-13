@@ -1,6 +1,5 @@
 import gsap from "gsap";
 import { useLayoutEffect } from "react";
-import { Link } from "react-router-dom";
 import SplitType from "split-type";
 import Navbar from "../components/Navbar";
 import "../styles/Home.css";
@@ -21,10 +20,12 @@ const Home = () => {
     <>
       <Navbar />
       <div className="wrapper">
-        <div className="links"></div>
-
         <header>
           <h1 id="my-text">Brandon.Trump</h1>
+          <iframe
+            src="https://my.spline.design/untitled-f3a2af52e6facd3d95b6e3c6386cfb6b/"
+            frameborder="0"
+          ></iframe>
         </header>
       </div>
     </>
