@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-import "../styles/MovingBlob.css";
+import "../styles/MovingBlob.scss";
 import HackerText from "./HackerText";
 
 const MovingBlob = () => {

@@ -2,11 +2,11 @@ import gsap from "gsap";
 import { useLayoutEffect } from "react";
 import SplitType from "split-type";
 import Navbar from "../components/Navbar";
-import "../styles/Home.css";
+import "../styles/Home.scss";
 
 const Home = () => {
   useLayoutEffect(() => {
-    const myText = new SplitType("#my-text");
+    // const myText = new SplitType("#my-text");
 
     gsap.to(".char", {
       y: 0,

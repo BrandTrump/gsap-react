@@ -1,4 +1,4 @@
-import "../styles/TwitchCard.css";
+import "../styles/TwitchCard.scss";
 import { useLayoutEffect, useRef } from "react";
 
 const TwitchCard = () => {
@@ -22,15 +22,13 @@ const TwitchCard = () => {
 
     const createSubtitle = (text) => text.split(" ").map(addWord);
 
-    createSubtitle(
-      "But in a much more real sense, I have no idea what I'm doing"
-    );
+    createSubtitle("This is a beautiful animated card made with React");
   }, []);
   return (
     <div className="card-container">
       <div className="card">
         <div className="card-content">
-          <h3 className="card-title">I know exactly what I'm doing</h3>
+          <h3 className="card-title">Twitch Animated Card</h3>
           <h4 className="card-subtitle" ref={subtitle}></h4>
         </div>
       </div>

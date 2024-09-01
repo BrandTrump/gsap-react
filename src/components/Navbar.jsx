@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/Navbar.css";
+import "../styles/Navbar.scss";
 
 const Navbar = () => {
   return (
@@ -33,6 +33,16 @@ const Navbar = () => {
           <li>
             <Link to={"/twitch-card"} className="links">
               Twitch Card
+            </Link>
+          </li>
+          <li>
+            <Link to={"/gsap-text-animation"} className="links">
+              3D Text Effect
+            </Link>
+          </li>
+          <li>
+            <Link to={"/shader-gradient"} className="links">
+              Shader Gradient
             </Link>
           </li>
         </ul>

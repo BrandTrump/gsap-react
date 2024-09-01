@@ -32,6 +32,10 @@ body {
   color: black;
 }
 
+.shader-container {
+  position: relative;
+}
+
 @media screen and (min-width: 1700px) {
   .wrapper {
     width: 1700px;

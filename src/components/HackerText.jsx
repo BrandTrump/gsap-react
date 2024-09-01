@@ -1,4 +1,4 @@
-import "../styles/HackerText.css";
+import "../styles/HackerText.scss";
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -8,7 +8,7 @@ const HackerText = () => {
   return (
     <div className="hacker-container">
       <h1
-        data-value="HYPERPLEXED"
+        data-value="HACKERTEXT"
         onMouseOver={(event) => {
           let iterations = 0;
 
@@ -30,7 +30,7 @@ const HackerText = () => {
           }, 30);
         }}
       >
-        HYPERPLEXED
+        HACKERTEXT
       </h1>
     </div>
   );

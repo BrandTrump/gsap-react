@@ -31,7 +31,7 @@
 .container {
   background-color: rgb(10, 10, 10);
   margin: 0;
-  height: 93.2vh;
+  height: calc(100svh - 70px);
   overflow: hidden;
   display: grid;
   place-items: center;
